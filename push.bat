@@ -1,3 +1,3 @@
 git add .
-git commit -m "new)bd"
+git commit -m "bitcoin"
 git push heroku master
