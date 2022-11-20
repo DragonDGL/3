@@ -1,3 +1,6 @@
+@echo off
+
+set /p input= commit:
 git add .
-git commit -m "13.11"
+git commit -m "%input%"
 git push heroku master
